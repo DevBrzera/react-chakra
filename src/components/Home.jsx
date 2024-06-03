@@ -19,8 +19,6 @@ export function Home(props) {
 
         <div>
 
-        <h1>{props.nomePagina}</h1>
-
     <Carousel fade>
       <Carousel.Item interval={900}>
         <img className={styles.carouselImg} src={japanCar} />

@@ -7,6 +7,11 @@
     background-color: rgba(0, 0, 0, 216);
     padding: 17px;
     font-size: 1.7rem;
+
+    /* Menu fixo na pagina */
+    /* position: fixed;
+    width: 100%;
+    top: 0; */
 }
 
 .menu {

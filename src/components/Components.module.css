@@ -171,3 +171,20 @@ img {
 .mainLogin h1{
     margin: 5rem 0 5rem 0 ;
 }
+
+.card ul li {
+    list-style: none;
+    margin: 15px 0 15px 0;
+}
+
+.imgs {
+    display: flex;
+}
+
+.card ul {
+    margin: 0;
+}
+
+.card img {
+    height: 28px;
+}
