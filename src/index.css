@@ -5,21 +5,6 @@ html, body {
     height: 100%;
 }
 
-.main{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.main2{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 body {
     text-align: center;
     font-size: 1.12em;
@@ -31,7 +16,3 @@ body {
 h1 {
     margin: 80px 0 80px 0;
 }
-
-#root {
-    height: 100%;
-} 

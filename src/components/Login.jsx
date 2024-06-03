@@ -25,11 +25,11 @@ export function Login() {
 
                 <FormControl height='100%'>
                     <HStack display='flex' justifyContent='center' alignItems='center'>
-                        <Box width='20%' margin='0 0 10px 0'>
+                        <Box width='20%' margin='30px 0 30px 0'>
                             <FormLabel margin='0 0'>Nome:</FormLabel>
                             <Input id='nome' type='text' _placeholder='Digite seu nome:' />
                         </Box>
-                        <Box width='20%' margin='0 0 10px 0'>
+                        <Box width='20%' margin='30px 0 30px 0'>
                             <FormLabel margin='0 0'>Data de Nascimento:</FormLabel>
                             <Input id='born' type='date' />
                         </Box>
@@ -38,11 +38,11 @@ export function Login() {
 
                     <HStack display='flex' justifyContent='center' alignItems='center'>
 
-                        <Box width='20%' margin='0 0 10px 0'>
+                        <Box width='20%' margin='30px 0 30px 0'>
                             <FormLabel margin='0 0'>Email:</FormLabel>
                             <Input id='email' type='email' _placeholder='Digite seu email:' />
                         </Box>
-                        <Box width='20%' margin='0 0 10px 0'>
+                        <Box width='20%' margin='30px 0 30px 0'>
                             <FormLabel margin='0 0'>Senha:</FormLabel>
                             <Input id='senha' type='password' _placeholder='Digite sua senha:' />
                         </Box>
@@ -50,7 +50,7 @@ export function Login() {
                     </HStack>
 
                     <HStack display='flex' justifyContent='center' alignItems='center'>
-                        <Box width='200px' margin='0 0 10px 0'>
+                        <Box width='200px' margin='30px 0 30px 0'>
                             <FormLabel margin='0 0'>Sexo:</FormLabel>
                             <RadioGroup display='flex' justifyContent='space-between'>
                                 <Radio value='masculino'>Masculino</Radio>
@@ -58,7 +58,7 @@ export function Login() {
                             </RadioGroup>
                         </Box>
                     </HStack>
-                    <HStack display='flex' justifyContent='center' alignItems='center' margin='10px 0 0 0'>
+                    <HStack display='flex' justifyContent='center' alignItems='center' margin='20px 0 20px 0'>
                         <Button colorScheme='teal' size='md'>Enviar</Button>
                     </HStack>
                 </FormControl>

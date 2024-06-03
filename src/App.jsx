@@ -12,10 +12,10 @@ import './index.css'
 
 function App() {
   return (
-    <div class="main">
+    <div>
       <Header />
 
-      <div class="main2">
+      <div>
         <Routes>
 
           <Route path='/' element={<Home nomePagina='Página Inicial' />} />
