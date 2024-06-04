@@ -19,6 +19,8 @@
     font-family: 'roboto', arial, helvetica, sans-serif;
     color: #000;
     font-weight: 400;
+    display: flex;
+    align-items: center;
 }
 
 .footer img {

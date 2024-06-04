@@ -17,7 +17,7 @@ export function Header() {
                 <li><Link className={styles.linkMenu} to="./Contato">CONTATO</Link></li>
                 <li><Link className={styles.linkMenu} to="./Login">
                     <AvatarGroup padding='10px 0 10px 0' display='flex' flexDirection='row' alignItems='center' justifyContent='center'>
-                        <Avatar bg='teal.500' height='45px'  />
+                        <Avatar bg='white.500' height='45px'  />
                     </AvatarGroup>LOGIN</Link></li>
             </ul>
 
